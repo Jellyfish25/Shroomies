@@ -1,0 +1,23 @@
+.image-style {
+  width: 50%;
+  height: 50%;
+  max-width: 400px;
+  max-height: 550px;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 15%;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+p1 {
+  text-align: center;
+}

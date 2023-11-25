@@ -1,0 +1,83 @@
+<link rel="stylesheet" href="admin.css">
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Shroomies | Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script defer src="theme.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<header>
+  <a href="./">
+    <img class="logo" src="images/shroomiesLogo.png" alt="logo">
+  </a>
+<nav>
+    <ul class="nav__links">
+    <li><a href="/">Home</a></li>
+    <li><a href="./about">About</a></li>
+    <li><a href="./products">Products</a></li>
+    <li><a href="./news">News</a></li>
+    <li><a href="./contacts">Contacts</a></li>
+    <li><a href="./admin">Admin</a></li>
+    </ul>
+</nav>
+<a class="cta" href="./login"><button>Users</button></a>
+</header>
+
+  <main>
+    <div class="login-form">
+      <head style = "text-align: center;">
+        <br>
+        <h1>Admin Login</h1>
+        <span style = "color: hotpink; font-size: 10pt; font-weight: bold">
+          Note that password will be sent as plain text
+        </span>
+
+        <form action = "password.php" method = "post">
+        <br>
+
+        <section class = "input-column">
+          <div style = "padding-left: 50px">
+            <strong style = "padding-bottom: 25px">Username:</strong>
+            <strong style = "padding-bottom: 25px">Password:</strong>
+          </div>
+
+          <div style = "padding-right: 50px">
+            <input size = "40" name = "USERNAME" class = "text-field-style" />
+            <input size = "40" name = "PASSWORD" class = "text-field-style" type = "password" />
+          </div>
+        </section>
+
+        <br>
+        <!-- login buttons -->
+        <section style = "padding-top: 40px;">
+          <tr>
+            <td colspan = "1">
+              <input type = "submit" name = "Enter" value = "Login" class = "button-style"style="width: 100px; height:50px; font-size:20px"/>
+            </td>
+          
+            <!-- <td colspan = "2">
+              <input type = "submit" name = "NewUser" value = "Register" class = "button-style"/>
+            </td> -->
+          </tr>
+        </section>
+
+    </login-form>
+  </main>
+<br>
+<section class="footer">
+  &copy; <em id="date"></em> 2023 Shroomies
+  <ul class="footer__links">
+    <li><a href="/">Privacy Policy</a></li>
+    <li><a href="/">Accessibility</a></li>
+    <li><a href="/">Terms</a></li>
+    <li><a href="/">Contact Us</a></li>
+  </ul>
+</section> 
+</body>
+</html>

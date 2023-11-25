@@ -1,0 +1,9 @@
+Role: CEO
+Name: Dimitar Dimitrov
+Email: mitko@shroomies.com
+Phone: 123-420-7869
+
+Role: Mushroom Picker
+Name: Fish Man
+Email: unknown@AOL.com
+phone: 555-999-9999

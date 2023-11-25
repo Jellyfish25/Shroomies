@@ -1,0 +1,175 @@
+:root {
+  font-size: 16px;
+  font-family: 'Open Sans';
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li, a, button {
+  font-weight: bold;
+  font-size: 16px;
+  color: hotpink;
+  text-decoration: none;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20%;
+  position: fixed;
+  width:100%;
+  top: 0;
+  z-index: 1030; /* to prevent the navbar getting covered up by other content */
+}
+
+body {
+  background-color: #24252A;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background:black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background:deeppink;
+}
+
+.logo {
+    height: 150px;
+    max-height: 150px;
+    width: auto;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color:deeppink
+}
+
+button {
+  padding: 9px 25px;
+  color: white;
+  background-color: hotpink;
+  border:none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color:deeppink;
+}
+
+/* main body for page */
+main {
+  text-align: center;
+  min-width: 100%;
+  min-height: 50vh; /* prev: 100vh */
+  margin-top: 160px;
+  padding-bottom: 20px;
+  color: white;
+  background-image: linear-gradient(black, deeppink);
+  background-position: center;
+  background-size: cover;
+  position:relative;
+}
+
+/* footer */
+.footer{
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.footer__links {
+  padding-top: 25px;
+  list-style: none;
+}
+
+.footer__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.footer__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+/* HOME PAGE CSS */
+.home-text {
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.home-container {
+  display: inline-flex;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-bottom: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Farm section */
+.farm-section {
+  padding-top: 2%;
+}
+
+.small-text-font {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  
+}
+
+.farm-image {
+  padding-right: 3%;
+  width: 450px;
+  height: 400px;
+  border-radius: 25%;
+}
+
+.info-container {
+  padding-top: 20px;
+  display: inline-flex;
+  flex-direction: row;
+  text-align: center;
+}

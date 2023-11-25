@@ -1,0 +1,64 @@
+.login-form {
+  height: 100%; 
+  min-height: 200px;
+  width: 500px;
+  margin-top: 25px;
+  text-align: center;
+  align-content: center;
+  display: inline-flex;
+  flex-direction: column;
+  background-color: #1d2630;
+  border-radius: 50px;
+}
+
+.button-style {
+  width: 100px;
+  height: 50px;
+  font-size:20px; 
+  background-color: deeppink;
+  color: white;
+  border-color:darkviolet;
+  border-radius: 30px;
+  margin-top: 25px;
+}
+
+.text-field-style {
+  background-color: hotpink;  
+  color: black;
+  height: 30px; 
+  width: 170px;
+}
+
+.page-container {
+  flex-direction: row;
+  display: inline-flex;
+  justify-content:space-evenly;
+  width: 100%;
+}
+
+.users-container { 
+  width: 65%;
+  margin-top: 25px;
+  text-align: center;
+  align-content: center;
+  display: inline-flex;
+  flex-direction: column;
+  background-color: #1d2630;
+  border-radius: 50px;
+}
+
+.custom-table {
+    border-collapse: collapse;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    width: 90%; /* Adjust the table width as needed */
+}
+
+.custom-table th, .custom-table td {
+    border: 3px solid deeppink;
+    padding: 8px; /* Adjust the padding as needed */
+    text-align: left;
+    /* min-width: 125px; */
+}

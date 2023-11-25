@@ -1,0 +1,10 @@
+[31-Oct-2023 04:32:20 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/customer/www/mitkojellyfisher.com/public_html/mushroomInfo/chanterelle.php on line 86
+[31-Oct-2023 04:32:49 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/customer/www/mitkojellyfisher.com/public_html/mushroomInfo/chanterelle.php on line 86
+[31-Oct-2023 04:54:39 UTC] PHP Parse error:  syntax error, unexpected ''<br>'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in /home/customer/www/mitkojellyfisher.com/public_html/mushroomInfo/chanterelle.php on line 90
+[31-Oct-2023 04:55:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/mitkojellyfisher.com/public_html/mushroomInfo/chanterelle.php on line 104
+[31-Oct-2023 04:55:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/mitkojellyfisher.com/public_html/mushroomInfo/chanterelle.php on line 104
+[31-Oct-2023 05:00:51 UTC] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home/customer/www/mitkojellyfisher.com/public_html/mushroomInfo/cookies.php on line 5
+[31-Oct-2023 05:01:25 UTC] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home/customer/www/mitkojellyfisher.com/public_html/mushroomInfo/cookies.php on line 5
+[31-Oct-2023 05:01:49 UTC] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home/customer/www/mitkojellyfisher.com/public_html/mushroomInfo/cookies.php on line 5
+[31-Oct-2023 05:02:39 UTC] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home/customer/www/mitkojellyfisher.com/public_html/mushroomInfo/cookies.php on line 6
+[31-Oct-2023 05:08:58 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/customer/www/mitkojellyfisher.com/public_html/mushroomInfo/chanterelle.php on line 5

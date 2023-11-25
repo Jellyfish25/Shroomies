@@ -1,0 +1,28 @@
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col h1 {
+    padding-top: 0;
+}
+.about-col p {
+    padding: 15px 50px 25px;
+    text-align: justify;
+}
+
+.about-image {
+    width: 550px;
+    height: 400px;
+}

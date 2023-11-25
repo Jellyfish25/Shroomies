@@ -1,0 +1,33 @@
+.login-form {
+  margin-top: 25px;
+  text-align: center;
+  align-content: center;
+  display: inline-flex;
+  flex-direction: column;
+  background-color: #1d2630;
+  width: 350px;
+  height: 250px;
+  border-radius: 50px;
+}
+
+.button-style {
+  height: 30px; 
+  width: 60px;
+  background-color: deeppink;
+  color: white;
+  border-color:darkviolet;
+  border-radius: 30px;
+}
+
+.text-field-style {
+  background-color: hotpink;  
+  color: black;
+  height: 22px; 
+  width: 115px;
+}
+
+.input-column {
+  flex-direction: row;
+  display: inline-flex;
+  justify-content: space-evenly;
+}

@@ -2,7 +2,7 @@
 [Shroomies Website](https://mitkojellyfisher.com/)
 
 ## Background Information
-Full stack website project for Enterprise Software Platforms (CMPE-272) Masters course offered at SJSU. This is a mockup production based website, where the main product offered is mushrooms. This project includes different pages such as Home, About, Products, News, Contacts, Admin, and Users.
+Full stack website project for Enterprise Software Platforms (CMPE-272) Masters course offered at SJSU. This website is a prototype for an e-commerce platform selling products, where the main product offered is mushrooms. This project includes different pages such as Home, About, Products, News, Contacts, Admin, and Users.
 <br>
 ### Notes:
 Admin section's purpose was to demonstrate the ability to create a page that requires administrator priviledges to access. 

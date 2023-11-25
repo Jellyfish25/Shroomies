@@ -17,7 +17,7 @@ password: "password"
 Users section's purpose was to demonstrate the ability to connect to a SQL database. This page allows for the creation of a user and to search for a user by their name, email, or phone number. Additionally, all users can be displayed between two websites. This functionality was to show the ability to use cURL to transfer data between two different websites.
 
 ## Tools used
-Languages: HTML, CSS, PHP
+Languages: HTML, CSS, PHP, SQL
 <br>
 Tools: SiteGround (domain hosting), Aseprite
 
